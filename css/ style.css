@@ -7,8 +7,34 @@
 
 body {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
 }
 
 header {
     background-color: darkviolet;
+    height:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+    .intrologodojogo img {
+        width: 300px;
+        background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer {
+    background-color: yellow;
+
 }
