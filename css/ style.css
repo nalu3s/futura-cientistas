@@ -179,6 +179,36 @@ header ul {
     width: 1500px;
 }
 
+.paragrafoAeonYaoshi {
+    background-color: blueviolet;
+    width: 1500px;
+}
+
+.paragrafoAeonFuli{
+    background-color: brown;
+    width: 1500px;
+}
+
+.paragrafoAeonLan {
+    background-color: cornflowerblue;
+    width: 1500px;
+}
+
+.paragrafoAeonNous {
+    background-color: darkgoldenrod;
+    width: 1500px;
+}
+
+.paragrafoAeonQlipoth {
+    background-color: darkkhaki;
+    width:  1500px;
+}
+
+.paragrafoAeonXipe{
+    background-color: crimson;
+    width: 1500px;
+}
+
 #planets {
     background-color: rgb(252, 114, 1);
     width: 1600px;
