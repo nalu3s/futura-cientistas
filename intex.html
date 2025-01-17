@@ -1,265 +1,307 @@
-* {
-    padding: 0;
-    margin:0;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-}
++54
+-1
+Original file line number	Diff line number	Diff line change
+@@ -1,131 +1,131 @@
+<h1><!DOCTYPE html>
+<html lang="pt-br">
+<head>
 
-html{
-    scroll-behavior: smooth;
-}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>honkai star rail wiki</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
 
-body {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100vh;
-}
+</head>
 
-header {
-    background-color: darkviolet;
-    height:300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    
-}
+<body>
+    <header>
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-}
+     <div class="intrologodojogo"> 
+         <img src="/img/logo honkai star rail.png" alt="logo do jogo">
+     </div> 
 
-.intrologodojogo {
-    background-color: darkred;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 600px;
-    padding: 10px;
-    
-}
+     <div id="nav">
+            <ul>
+                <a href="#express">
+                <li> Expresso Astral</li>
+                </a>
+                <a href="#aeon">
+                <li> Aeons </li>
+                </a>
+                <a href="#planets">
+                <li> Planetas</li>
+                </a>
+            </ul>
+     </div>
 
+    </header>
 
-.intrologodojogo img {
-    width: 300px;
-    background-color: black;
-    
-    
-}
+    <main>
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+    <div id="express"> 
+        <div class="titulo">
+            <h2>Expresso Astral</h2>
 
-#nav { 
-    background-color: darkorange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    padding: 8px;
-    border-radius: 30px;
-    
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-
-#express {
-    background-color: lightpink;
-    margin-top: 20px;
-    width: 1600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-.paragrafoExpresso {
-    background-color: blue;
-    width: 1500px;
-    padding: 20px;
-    text-align: center;
-    line-height: 1,6;
-
-}
+            <div class="paragrafoExpresso"> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Laboriosam reprehenderit error saepe odio, dolore fugit nihil doloribus ex quis,
+                    dolor, distinctio molestias rem sed expedita iure beatae tempora minus corporis!
+                    </p>
+            </div>
 
 
-#express img {
-    border-radius: 15px;
-}
+        </div>
+
+        <section class="expresso-pics">
+            <div class="flip-card1"> 
+                <div class="flip-card-inner1"> 
+                    <div class="flip-card-front1"> 
+                        <h3>vagão do expresso</h3>
+                        <img src="/img/1cdbd18e02b93318633e0cf2ca3b9de6.jpg" alt="lado de fora expresso astral" style="width:550px; height:309px">
+                    </div>
+
+                    <div class="flip-card-back1">
+                        <h3>vagão de convivencia</h3>
+                        <img src="/img/9ed52378df63c135d514553a6ce3a7d6.jpg" alt="vagão de convivencia-intero" style="width:550px;height:309px">
+                    </div>
+
+                </div>
+            </div>
+        </section> 
 
 
-.expresso-pics {
-    background-color: darkolivegreen;
-    width: 600px;
-    height: 600px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
+    </div>
 
-.flip-card1 {
-    width: 550px;
-    height: 309px;
-    background-color: transparent;
-    perspective: 1000px;
-}
+    <div id="aeon">
+        <div class="titulo">
+            <h2>Aeons</h2>
+        </div>
 
-.flip-card-inner1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
+        <Section class="aeons-pics">
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+                <div class="flip-card-front2"> 
+                    <h3>IX, caminho da inexistencia</h3>
+                    <img src="/img/aeon ix.jpg"  alt="IX, aeon da inexistencia" style="width: 300px;height: 300px">
+                </div>
 
-}
+                <div class="flip-card-back2">
+                    <h3>IX, caminho da inexistencia</h3>
+                    <img src="/img/logo aeon inexistencia.jpg" alt="logo do caminho da inexistencia" style="width:300px;height:300px" >
+                </div>
 
-.flip-card1:hover .flip-card-inner1 {
-    transform: rotateY(180deg);
-}
+            </div>
 
-.flip-card-front1, .flip-card-back1 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
+            <div class="paragrafoAeonIx">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam beatae quaerat fugiat ea obcaecati ipsa, voluptas non nemo repudiandae corrupti rerum tempora, 
+                    reprehenderit facere magnam illo necessitatibus quod nostrum soluta?
+                </p>
+            </div>
 
-.flip-card-back1{
-    transform: rotateY(180deg);
-    
-}
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+                <div class="flip-card-front2"> 
+                    <h3>Nanook, caminho da destruição</h3>
+                    <img src="/img/aeon nanook.jpg"  alt="Nanook, aeon da destruição" style="width: 300px;height: 300px">
+                </div>
 
-#aeon {
-    background-color: rgb(157, 231, 20);
-    width: 1600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+                <div class="flip-card-back2">
+                    <h3>Nanook, caminho da destruição</h3>
+                    <img src="/img/logo aeon destruição.jpg" alt="logo do caminho da destruição" style="width:300px;height:300px" >
+                </div>
 
-}
+            </div>
 
-.paragrafoAeonIx {
-    background-color: bisque;
-    width: 1500px;
+            <div class="paragrafoAeonNanook">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Fugit quaerat adipisci magnam voluptatum. Quibusdam qui, sed obcaecati minima 
+                    enim odit reiciendis impedit quae id amet asperiores itaque a excepturi numquam.
+                </p>
+            </div>
+            
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+                <div class="flip-card-front2"> 
 
-}
+                </div>
 
-.paragrafoAeonNanook {
-    background-color: chocolate;
-    width: 1500px;
-}
+            </div>
+            <div class="paragrafoAeonYaoshi"> 
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Facilis impedit ut porro aperiam doloribus, sed, quo doloremque sit aspernatur repudiandae 
+                    corporis hic et, non minima earum quisquam. Assumenda, tenetur illum?
+                </p>
+            </div>
+            <div class="aeons-flips"> </div>
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+                </div>
 
-.paragrafoAeonYaoshi {
-    background-color: blueviolet;
-    width: 1500px;
-}
+            </div>
+            <div class="paragrafoAeonFuli">
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing 
+                elit. Accusantium illum nesciunt itaque sint dolorem esse. Commodi sequi perferendis 
+                corporis dolore quas explicabo quae, cum et consequatur eius officiis, dignissimos vitae.
+                </p>
+            </div>
 
-.paragrafoAeonFuli{
-    background-color: brown;
-    width: 1500px;
-}
+            <div class="aeons-flips"> </div>
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+            </div>
 
-.paragrafoAeonLan {
-    background-color: cornflowerblue;
-    width: 1500px;
-}
+            </div>
 
-.paragrafoAeonNous {
-    background-color: darkgoldenrod;
-    width: 1500px;
-}
+            <div class="paragrafoAeonLan">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Blanditiis error cupiditate nobis doloremque assumenda iusto tempora quis quibusdam. 
+                 Voluptatum dolor minima eveniet sed, cumque nulla iste sequi tempora aliquam cum?  
+                </p>
+            </div>
 
-.paragrafoAeonQlipoth {
-    background-color: darkkhaki;
-    width:  1500px;
-}
+            <div class="aeons-flips"> </div>
+        <div class="flip-card2"> 
+            <div class="flip-card-inner2"> 
+                </div>
 
-.paragrafoAeonXipe{
-    background-color: crimson;
-    width: 1500px;
-}
+            </div>
+            <div class="paragrafoAeonNous">
+                <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Facere veniam expedita ex sequi, totam hic, 
+                    debitis, nam tempora ipsa atque laboriosam alias nisi maxime? Adipisci cum nam enim eos suscipit?
+                </p>
+            </div>
 
-#planets {
-    background-color: rgb(252, 114, 1);
-    width: 1600px;
-    display: flex;
-    margin-bottom: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+            </div>
+            <div class="aeons-flips"> </div>
+        <div class="flip-card2"> 
+                </div>
 
-}
+            </div>
+            <div class="paragrafoAeonQlipoth">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Mollitia, quae ducimus. Debitis non, velit porro deserunt sed, amet molestiae
+                     totam delectus dignissimos blanditiis cum nihil dolore ullam repellendus nostrum consectetur.
+                </p>
+            </div>
+
+            </div>
+            <div class="aeons-flips"> </div>
+        <div class="flip-card2"> 
+                </div>
+
+            </div>
+            <div class="paragrafoAeonXipe">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, 
+                accusantium fugiat! Nemo officiis, ducimus optio ipsum maxime corporis quibusdam
+                 voluptatem distinctio dignissimos, rerum neque aliquid qui, dolorem minus facilis? Excepturi?
+                </p>
+            </div>
+        </Section>
+
+    </div>
+
+    <div id="planets">
+        <div class="titulo"> 
+            <h2>Planetas</h2> 
+        </div>
+
+        <section class="planetas-pics">
+            <div class="flip-card3"> 
+                <div class="flip-card-inner3"> 
+                    <div class="flip-card-front3"> 
+                        <h3>Jarilo-IV</h3>
+                        <img src="/img/jarilo - belobog.jpg" alt="Jarilo-IV" >
+                    </div>
+
+                    <div class="flip-card-back3">
+                        <h3>Jarilo-IV</h3>
+                        <img src="/img/jarilo - belobog 2.jpg" alt="Jarilo-IV" >
+                    </div>
+
+                </div>
+            </div>
+	    
+	    <div class="paragrafoJarilo">
+		<p> Lorem </p>
+	    </div>
 
 
+            <div class="flip-card3"> 
+                <div class="flip-card-inner3"> 
+                    <div class="flip-card-front3"> 
+                        <h3>Estação Espacial da Herta</h3>
+                        <img src="/img/ambientação herta station.jpg" alt="Estação Espacial da Herta" >
+                    </div>
+
+                    <div class="flip-card-back3">
+                        <h3>Estação Espacial da Herta</h3>
+                        <img src="/img/5dd24dbc9c30a87a49a58e645650d2bc.jpg" alt="Estação Espacial da Herta" >
+                    </div>
+
+                </div>
+            </div>
+
+	    <div class="paragrafoHerta">
+		<p> Lorem </p>
+	    </div>
+
+            <div class="flip-card3"> 
+                <div class="flip-card-inner3"> 
+                    <div class="flip-card-front3"> 
+                        <h3>Penacony</h3>
+                        <img src="/img/penacony ambientação 1.jpg" alt="Penacony" >
+                    </div>
+
+                    <div class="flip-card-back3">
+                        <h3>Penacony</h3>
+                        <img src="/img/penacony ambientação 2.jpg" alt="Penacony" >
+                    </div>
+
+                </div>
+            </div>
+		
+	    <div class="paragrafoPenacony">
+		<p> Lorem </p>
+	    </div>
 
 
-footer {
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3%;
-}
+        </section>
 
-footer h4 {
-    font-size: large;
-}
+    </div>
 
-footer form {
-    padding: 1,5%;
-}
+    </main>
 
-footer label {
-    font-size: medium;
-}
+    <footer>
+        <h4> se inscreva abaixo para receber os códigos de recompensa do jogo!</h4>
+        <form>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
 
-input {
-    padding: 0,75%;
-    border-radius: 30px;
-    border: 1px solid rgb(0, 0, 0);
-    margin-right: 5px;
-}
+            <label for="email">Email</label>
+            <input id="email" type="email">
 
-button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    margin-left: 10px;
+            <label for="idGame">Id de jogador</label>
+            <input id="idGame" type="number">
 
-}
+            <button id="botaoEnviar"> Enviar </button>
+        </form>
+    </footer>
+
+</body>
+</html></h1> 
