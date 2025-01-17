@@ -277,7 +277,6 @@ header ul {
     border-radius: 15px;
 }
 
-
 .flip-card3 {
     width: 550px;
     height: 300px;
@@ -309,6 +308,22 @@ header ul {
 .flip-card-back3{
     transform: rotateY(180deg);
     
+}
+
+
+.paragrafoJarilo {
+     background color: ;
+     width:1500px;
+}
+
+.paragrafoHerta {
+     background color: ;
+     width:1500px;
+}
+
+.paragrafoPenacony{
+     background color: ;
+     width:1500px;
 }
 
 
@@ -348,4 +363,4 @@ button {
     border: 1px solid rgb(0, 0, 0);
     margin-left: 10px;
 
-} 
+}
