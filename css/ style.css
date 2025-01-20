@@ -178,6 +178,11 @@ header ul {
     border-radius: 15px;
 }
 
+.paragrafoAeons{
+    background-color: aquamarine;
+    width: 1500px;
+}
+
 .paragrafoAeonIx {
     background-color: bisque;
     width: 1500px;
@@ -258,7 +263,6 @@ header ul {
     background-color: rgb(45, 8, 255);
     width:1500px;
 }
-
 
 .paragrafoPenacony{
      background-color: thistle;
