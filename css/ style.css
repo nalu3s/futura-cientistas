@@ -178,6 +178,39 @@ header ul {
     border-radius: 15px;
 }
 
+.flip-card2 {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back2{
+    transform: rotateY(180deg);
+    
+}
+
 .paragrafoAeons{
     background-color: aquamarine;
     width: 1500px;
@@ -188,30 +221,25 @@ header ul {
     width: 1500px;
 }
 
-
 .paragrafoAeonNanook {
     background-color: chocolate;
     width: 1500px;
 }
-
 
 .paragrafoAeonYaoshi {
     background-color: blueviolet;
     width: 1500px;
 }
 
-
 .paragrafoAeonFuli{
     background-color: brown;
     width: 1500px;
 }
 
-
 .paragrafoAeonLan {
     background-color: cornflowerblue;
     width: 1500px;
 }
-
 
 .paragrafoAeonNous {
     background-color: darkgoldenrod;
@@ -248,6 +276,37 @@ header ul {
     border-radius: 15px;
 }
 
+.flip-card3 {
+    width: 550px;
+    height: 309px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+
+}
+
+.flip-card3:hover .flip-card-inner3 {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back3{
+    transform: rotateY(180deg);
+}
 
 .paragrafoHerta {
      background-color: rosybrown;
@@ -269,7 +328,10 @@ header ul {
      width:1500px;
 }
 
-
+.paragrafoAmphoreus{
+     background-color: azure;
+     width:1500px;
+}
 
 
 footer {
