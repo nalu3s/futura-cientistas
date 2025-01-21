@@ -104,7 +104,7 @@ header ul {
 
 .paragrafoExpresso {
     background-color: blue;
-    width: 1500px;
+    width: 1200px;
     padding: 20px;
     text-align: center;
     line-height: 1,6;
@@ -174,15 +174,23 @@ header ul {
 
 }
 
+.aeons-pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 #aeon img {
     border-radius: 15px;
 }
 
 .flip-card2 {
     width: 300px;
-    height: 300px;
+    height: 370px;
     background-color: transparent;
     perspective: 1000px;
+    padding: 30px;
 }
 
 .flip-card-inner2 {
@@ -213,47 +221,47 @@ header ul {
 
 .paragrafoAeons{
     background-color: aquamarine;
-    width: 1500px;
+    width: 1200px;
 }
 
 .paragrafoAeonIx {
     background-color: bisque;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonNanook {
     background-color: chocolate;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonYaoshi {
     background-color: blueviolet;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonFuli{
     background-color: brown;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonLan {
     background-color: cornflowerblue;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonNous {
     background-color: darkgoldenrod;
-    width: 1500px;
+    width: 1000px;
 }
 
 .paragrafoAeonQlipoth {
     background-color: darkkhaki;
-    width:  1500px;
+    width:  1000px;
 }
 
 .paragrafoAeonXipe{
     background-color: crimson;
-    width: 1500px;
+    width: 1000px;
 }
 
 #planets {
