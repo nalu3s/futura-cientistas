@@ -190,7 +190,8 @@ header ul {
     height: 370px;
     background-color: transparent;
     perspective: 1000px;
-    padding: 30px;
+    padding: 7px;
+    
 }
 
 .flip-card-inner2 {
@@ -222,46 +223,47 @@ header ul {
 .paragrafoAeons{
     background-color: aquamarine;
     width: 1200px;
+    padding: 5px;
 }
 
 .paragrafoAeonIx {
     background-color: bisque;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonNanook {
     background-color: chocolate;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonYaoshi {
     background-color: blueviolet;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonFuli{
     background-color: brown;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonLan {
     background-color: cornflowerblue;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonNous {
     background-color: darkgoldenrod;
-    width: 1000px;
+    width: 850px;
 }
 
 .paragrafoAeonQlipoth {
     background-color: darkkhaki;
-    width:  1000px;
+    width:  850px;
 }
 
 .paragrafoAeonXipe{
     background-color: crimson;
-    width: 1000px;
+    width: 850px;
 }
 
 #planets {
