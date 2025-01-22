@@ -51,8 +51,6 @@ main {
 .intrologodojogo img {
     width: 300px;
     background-color: black;
-    
-    
 }
 
 a {
@@ -69,6 +67,44 @@ a {
     padding: 8px;
     border-radius: 30px;
     
+}
+
+#menuhamburge{
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width:768px) {
+    #menuhamburge {
+        display: block;
+    }    
+
+    header ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+    }
+    
+    header ul.active {
+        display: flex;
+    }
+
+    #express, #aeon, #planets {
+        grid-template-columns: 1fr;
+    }
+
+    #nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
 
 header ul {
@@ -178,6 +214,7 @@ header ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 }
 #aeon img {
@@ -186,11 +223,10 @@ header ul {
 
 .flip-card2 {
     width: 300px;
-    height: 370px;
+    height: 340px;
     background-color: transparent;
     perspective: 1000px;
-    padding: 7px;
-    
+    padding: 20px;
 }
 
 .flip-card-inner2 {
@@ -223,46 +259,48 @@ header ul {
     background-color: aquamarine;
     width: 1200px;
     padding: 5px;
+    gap: 5px;
 }
 
 .paragrafoAeonIx {
     background-color: bisque;
-    width: 850px;
+    width: 800px;
+    
 }
 
 .paragrafoAeonNanook {
     background-color: chocolate;
-    width: 850px;
+    width: 800px;
 }
 
 .paragrafoAeonYaoshi {
     background-color: blueviolet;
-    width: 850px;
+    width: 800px;
 }
 
 .paragrafoAeonFuli{
     background-color: brown;
-    width: 850px;
+    width: 800px;
 }
 
 .paragrafoAeonLan {
     background-color: cornflowerblue;
-    width: 850px;
+    width: 800px;
 }
 
 .paragrafoAeonNous {
     background-color: darkgoldenrod;
-    width: 850px;
+    width: 800px;
 }
 
 .paragrafoAeonQlipoth {
     background-color: darkkhaki;
-    width:  850px;
+    width:  800px;
 }
 
 .paragrafoAeonXipe{
     background-color: crimson;
-    width: 850px;
+    width: 800px;
 }
 
 #planets {
@@ -345,25 +383,25 @@ header ul {
 
 .paragrafoJarilo {
     background-color: maroon;
-    width:1500px;
+    width:900px;
     padding: 20px;
 }
 
 .paragrafoLuofu {
     background-color: rgb(45, 8, 255);
-    width:1500px;
+    width:900px;
     padding: 20px;
 }
 
 .paragrafoPenacony{
      background-color: thistle;
-     width:1500px;
+     width:900px;
      padding: 20px;
 }
 
 .paragrafoAmphoreus{
      background-color: azure;
-     width:1500px;
+     width:900px;
      padding: 20px;
 }
 
