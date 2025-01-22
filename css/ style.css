@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background-color: aqua;
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: darkviolet;
+    background-color: lavender;
     height:300px;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,6 @@ main {
 }
 
 .intrologodojogo {
-    background-color: darkred;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -286,11 +285,31 @@ header ul {
     border-radius: 15px;
 }
 
+.planetas-pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+} 
+
+.paragrafoPlanetas{
+    background-color: aqua;
+    width: 1200px;
+    padding: 15px;
+    text-align: center;
+    line-height: 1,6;
+
+}
+
+
 .flip-card3 {
     width: 550px;
     height: 309px;
     background-color: transparent;
     perspective: 1000px;
+    
 }
 
 .flip-card-inner3 {
@@ -320,27 +339,32 @@ header ul {
 
 .paragrafoHerta {
      background-color: rosybrown;
-     width:1500px;
+     width:900px;
+     padding: 20px;
 }
 
 .paragrafoJarilo {
     background-color: maroon;
     width:1500px;
+    padding: 20px;
 }
 
 .paragrafoLuofu {
     background-color: rgb(45, 8, 255);
     width:1500px;
+    padding: 20px;
 }
 
 .paragrafoPenacony{
      background-color: thistle;
      width:1500px;
+     padding: 20px;
 }
 
 .paragrafoAmphoreus{
      background-color: azure;
      width:1500px;
+     padding: 20px;
 }
 
 
