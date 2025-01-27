@@ -42,14 +42,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 600vw;
-    padding: 10px;
+    width: 150vw;
+    padding: 1vw;
     
 }
 
 
 .intrologodojogo img {
-    width: 20vw;
+    width: 18vw;
    
 }
 
@@ -104,6 +104,7 @@ a {
     
     #nav > ul.active {
         display: flex;
+        justify-content: center;
     }
 
     #express, #aeon, #planets {
@@ -132,7 +133,7 @@ header ul {
 .titulo{
     padding: 1%;
     background-color: #fff9ae;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 50vw;
     font-style: italic;
     font-size: x-large;
@@ -167,6 +168,7 @@ header ul {
 
 #express img {
     border-radius: 15px;
+   
 }
 
 
@@ -174,15 +176,16 @@ header ul {
     width: 30vw;
     height: 15vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    
 }
 
 .flip-card1 {
-    width: 550px;
-    height: 309px;
+    width: 30vw;
+    height: 15vw;
     background-color: transparent;
     perspective: 1000px;
 }
@@ -488,19 +491,20 @@ footer form {
 
 footer label {
     font-size: medium;
+    font-weight: bold;
 }
 
 input {
     padding: 0,75%;
     border-radius: 30px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #fff9ae;
     margin-right: 5px;
 }
 
 button {
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #fff9ae;
     margin-left: 10px;
 
 }
