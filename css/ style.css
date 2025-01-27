@@ -2,8 +2,8 @@
 * {
     padding: 0;
     margin:0;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
 }
 
 html{
@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background-color: aliceblue;
+    background-color: aliceblue ;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -42,14 +42,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 600px;
+    width: 600vw;
     padding: 10px;
     
 }
 
 
 .intrologodojogo img {
-    width: 300px;
+    width: 20vw;
    
 }
 
@@ -66,7 +66,8 @@ a {
     width: 40%;
     padding: 10px;
     border-radius: 30px;
-    
+    font-weight: bold;
+    font-size: x-large;
 }
 
 #menuhamburge{
@@ -130,10 +131,15 @@ header ul {
 
 .titulo{
     padding: 1%;
+    background-color: #fff9ae;
+    border-radius: 20px;
+    width: 50vw;
+    font-style: italic;
+    font-size: x-large;
 }
 
 #express {
-    background-color: lightpink;
+    background-color: #bbdefb;
     margin-top: 20px;
     width: 84vw;
     display: flex;
@@ -149,13 +155,13 @@ header ul {
 }
 
 .paragrafoExpresso {
-    background-color: blue;
     width: 80vw;
-    padding: 20px;
+    padding: 2vw;
     text-align: center;
     line-height: 1,6;
     font-size: larger;
-    font-style: italic;
+    font-weight: 600;
+    color: #494949;
 }
 
 
@@ -165,9 +171,8 @@ header ul {
 
 
 .expresso-pics {
-    background-color: darkolivegreen;
-    width: 45vw;
-    height: 30vw;
+    width: 30vw;
+    height: 15vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -188,6 +193,7 @@ header ul {
     height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    color: #808080;
 
 }
 
@@ -209,7 +215,7 @@ header ul {
 }
 
 #aeon {
-    background-color: rgb(157, 231, 20);
+    background-color: #bbdefb;
     width: 84vw;
     display: flex;
     flex-direction: column;
@@ -239,6 +245,7 @@ header ul {
     background-color: transparent;
     perspective: 1000px;
     padding: 20px;
+    color: #808080;
 }
 
 .flip-card-inner2 {
@@ -269,68 +276,86 @@ header ul {
 
 .paragrafoAeons{
     width: 80vw;
-    padding: 5px;
+    padding: 2vw;
     gap: 5px;
     font-size: larger;
-    font-weight: 1,6px;
+    font-weight: 1,6;
+    font-weight: 700;
+    color: #494949;
 }
 
 .paragrafoAeonIx {
-    width:75vw;
+    width:68vw;
     font-size: large;
-    font-weight: 1,6px;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
     
 }
 
 .paragrafoAeonNanook {
-    width:75vw;
+    width:68vw;
     font-size: large;
-    font-weight: 1,6px;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 .paragrafoAeonYaoshi {
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
     
 }
 
 .paragrafoAeonFuli{
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
     
 }
 
 .paragrafoAeonLan {
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
    
 }
 
 .paragrafoAeonNous {
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 .paragrafoAeonQlipoth {
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
     
 }
 
 .paragrafoAeonXipe{
-    width:75vw;
+    width:68vw;
     font-size: large;
     line-height: 1,6;
+    font-weight: bold;
+    padding: 1vw;
     
 }
 
 #planets {
-    background-color: rgb(252, 114, 1);
+    background-color: #bbdefb;
     width: 84vw;
     display: flex;
     margin-bottom: 20px;
@@ -354,16 +379,18 @@ header ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 1vw;
 
 } 
 
 .paragrafoPlanetas{
     width: 80vw;
-    padding: 15px;
+    padding: 2vw;
     text-align: center;
     line-height: 1,6;
-
+    font-weight: 700;
+    color: #494949;
+    font-size: larger;
 }
 
 
@@ -372,6 +399,7 @@ header ul {
     height: 309px;
     background-color: transparent;
     perspective: 1000px;
+    color: #808080;
     
 }
 
@@ -401,38 +429,48 @@ header ul {
 }
 
 .paragrafoHerta {
-    
-     width:75vw;
-     padding: 20px;
+    width:68vw;
+    font-size: large;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 .paragrafoJarilo {
-    
-    width:75vw;
-    padding: 20px;
+    width:68vw;
+    font-size: large;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 .paragrafoLuofu {
-    
-    width:75vw;
-    padding: 20px;
+    width:68vw;
+    font-size: large;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
-.paragrafoPenacony{
-     
-     width:75vw;
-     padding: 20px;
+.paragrafoPenacony{ 
+    width:68vw;
+    font-size: large;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 .paragrafoAmphoreus{
-    
-     width:75vw;
-     padding: 20px;
+    width:68vw;
+    font-size: large;
+    font-weight: 1,6;
+    font-weight: bold;
+    padding: 1vw;
 }
 
 
 footer {
-    background-color: yellow;
+    background-color: lavender;
     display: flex;
     flex-direction: column;
     justify-content: center;
